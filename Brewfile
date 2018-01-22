@@ -60,6 +60,7 @@ cask 'wireshark'
 cask 'teamviewer'
 cask 'typora'
 cask 'hex-fiend'
+cask 'sourcetree'
 
 # on my private machine
 cask 'daisydisk'
