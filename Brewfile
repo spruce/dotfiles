@@ -61,6 +61,7 @@ cask 'teamviewer'
 cask 'typora'
 cask 'hex-fiend'
 cask 'sourcetree'
+cask 'istat-menus'
 
 # on my private machine
 cask 'daisydisk'
