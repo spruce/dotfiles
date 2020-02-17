@@ -59,8 +59,7 @@ battery_status() {
   then
     exit 0
   fi
-
-  if [[ $(sysctl -n hw.model) == *"Book"* ]]
+  if [[ $(command -v sysctl >/dev/null 2>&1) && $(sysctl -n hw.model) == *"Book"* ]]
   then
     $ZSH/bin/battery-status
   fi
