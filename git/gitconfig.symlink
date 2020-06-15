@@ -35,3 +35,5 @@
 	helper = osxkeychain
 [diff]
         noprefix = true
+[branch]
+  sort = -committerdate
